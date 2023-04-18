@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signing-up</title>
+        
+        <a href="assaignmet1.html">return to the main page</a>
+    </head>
+    <body>
+        <nav>
+            <label class="lo">e-learning system</label>
+            <ul>
+                <li><a href="main.html">return to the main page </a></li>
+            </ul>
+        
+        </ul>
+        </nav>
+        <form action="course.html">
+            <fieldset>
+                <legend>fill in the next form</legend>
+            <br>
+            <label>first name:<input type="text" id="txtid" required></label>
+            <br>
+            <label>last name:<input type="text" id="txted" required> </label>
+            <br>
+            <label for="phone">phone number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+            <br>
+            <label>email:<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  placeholder="https://email.com" required></label>
+            <br>
+            <label>password:<input type="password" id="pass" required></label>
+            <br>
+            <p>
+                Choose:
+                <input type="radio" name="Gender" value="M" checked>
+                <label for="">Male</label>   
+                <input type="radio" name="Gender" value="F">
+                <label for="">Female</label>
+            </p>
+            <label for="role">Choose role:</label>
+            <select name="role" id="role">
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Employee">Employee</option>
+                <option value="Manager">Manager</option>
+                <option value="Other">Other</option>
+              </select>
+              <br>
+              <label for="url">Enter your Linkdin:// URL:</label>
+        <input type="url" name="url" id="url" 
+        placeholder="https://Linkdin.com"
+        pattern="https://.*" size="30"
+        >
+        <br>
+        <p>
+            <label for="role">Choose number of courses:</label>
+                <select name="role2" id="role2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                </select>
+        </p>
+        <p>
+            <label for="start">birth date:</label>
+
+            <input type="date" id="start" name="birth-date" required
+            min="1950-01-01" max="2023-12-31">
+            <br>
+            <br>
+        </p>
+        <p>    
+            
+                <button type="submit">submet</button>
+             
+        </p>
+    </form> 
+    
+    </fieldset>
+    
+    <footer>
+        <br>
+            <i class="fa-thin fa-download"></i>
+            <i class="fa-thin fa-xmark"></i>
+            <i class="fa-thin fa-circle-info"></i>
+    
+        </footer>
+    </body>
+</html>
